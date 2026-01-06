@@ -1,0 +1,29 @@
+{
+    "flags": "-iE",
+    "patterns": [
+        "struts",
+        "apache struts",
+        "jakarta struts",
+        "struts2",
+        "s2-",
+        "s2_",
+        "ognl",
+        "multipart",
+        "content-type:",
+        "jakarta\\.multipart",
+        "actionmapping",
+        "servletaction",
+        "dispatcher",
+        "freemarker",
+        "velocity",
+        "dojo",
+        "tiles",
+        "xwork",
+        "com\\.opensymphony\\.xwork",
+        "org\\.apache\\.struts",
+        " Jakarta\.multipart",
+        "redirect:",
+        "location:",
+        "class\\.com\\.opensymphony"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "flags": "-iE",
+    "patterns": [
+        "log4j",
+        "log4j2",
+        "log4shell",
+        "jndi:",
+        "jndi:rmi",
+        "jndi:ldap",
+        "jndi:iiop",
+        "jndi:dns",
+        "${jndi:",
+        "${lower:jndi:",
+        "${upper:jndi:",
+        "${env:",
+        "${sys:",
+        "${java:",
+        "${ctx:",
+        "${date:",
+        "${struct:",
+        "${map:",
+        "${spring:",
+        "${marker:",
+        "${bundle:",
+        "${web:",
+        "${sd:",
+        "${main:",
+        "${format:"
+    ]
+}

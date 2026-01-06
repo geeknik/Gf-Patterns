@@ -1,0 +1,29 @@
+{
+    "flags": "-HnrE",
+    "patterns": [
+        "\\$_(POST|GET|COOKIE|REQUEST|SERVER|FILES|ENV|SESSION)",
+        "php://(input|stdin|fd)",
+        "file_get_contents\\(.*php://",
+        "fopen\\(.*php://",
+        "readfile\\(.*php://",
+        "file\\(.*php://",
+        "parse_str\\(",
+        "import_request_variables",
+        "extract\\(",
+        "mb_parse_str",
+        "http_build_query",
+        "filter_input",
+        "filter_input_array",
+        "filter_var",
+        "filter_var_array",
+        "mysqli_real_escape_string",
+        "mysql_real_escape_string",
+        "pg_escape_string",
+        "addslashes\\(",
+        "stripslashes\\(",
+        "htmlspecialchars\\(",
+        "htmlentities\\(",
+        "strip_tags\\(",
+        "mysqli::real_escape_string"
+    ]
+}

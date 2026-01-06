@@ -1,0 +1,27 @@
+{
+    "flags": "-iE",
+    "patterns": [
+        "Authorization: Basic",
+        "Authorization: Bearer",
+        "Authorization: Digest",
+        "Authorization: NTLM",
+        "Authorization: Negotiate",
+        "WWW-Authenticate:",
+        "Proxy-Authorization:",
+        "Proxy-Authenticate:",
+        "auth_token=",
+        "access_token=",
+        "refresh_token=",
+        "bearer=",
+        "api_key=",
+        "apikey=",
+        "x-api-key:",
+        "x-auth-token:",
+        "authentication:",
+        "credentials:",
+        "basic_realm=",
+        "nonce=",
+        "qop=",
+        "opaque="
+    ]
+}

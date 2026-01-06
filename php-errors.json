@@ -1,0 +1,4 @@
+{
+    "flags": "-HnraiE",
+    "pattern": "(Fatal error|Warning|Notice|Parse error|Deprecated|Strict Standards|Recoverable fatal error|Unknown error|Exception|TypeError|ArgumentCountError|ArithmeticError|ParseError|Error|Call to undefined function|Call to undefined method|Class.*not found|Access to undeclared|Undefined variable|Undefined index|Undefined offset|Undefined array key|Trying to access|Failed opening required|failed to open stream|Maximum execution time|Allowed memory size|SQLSTATE|mysqli_|PDOStatement|PDOException|Uncaught PDOException|Uncaught Exception|on line [0-9]+|in .* on line|stack trace|backtrace|debug_backtrace|debug_print_backtrace|var_dump|print_r)"
+}

@@ -1,0 +1,17 @@
+{
+    "flags": "-hrioaE",
+    "patterns": [
+        "[a-z0-9.-]+\\.s3\\.amazonaws\\.com",
+        "[a-z0-9.-]+\\.s3-[a-z0-9-]+\\.amazonaws\\.com",
+        "[a-z0-9.-]+\\.s3-website[.-](eu|ap|us|ca|sa|cn|me)",
+        "//s3\\.amazonaws\\.com/[a-z0-9._-]+",
+        "//s3-[a-z0-9-]+\\.amazonaws\\.com/[a-z0-9._-]+",
+        "[a-z0-9.-]+\\.s3-accelerate\\.amazonaws\\.com",
+        "[a-z0-9.-]+\\.s3-website-[a-z0-9-]+\\.amazonaws\\.com",
+        "s3\\.amazonaws.com",
+        "s3-[a-z0-9-]+\\.amazonaws\\.com",
+        "s3\\.amazonaws\\.com/",
+        ".s3-website-",
+        "bucket\\.s3\\.amazonaws\\.com"
+    ]
+}
