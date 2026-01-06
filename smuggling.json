@@ -1,0 +1,17 @@
+{
+    "flags": "-iE",
+    "patterns": [
+        "content-length",
+        "transfer-encoding",
+        "chunked",
+        "content-type:",
+        "boundary=",
+        "connection:",
+        "keep-alive",
+        "close",
+        "upgrade",
+        "http/1.0",
+        "http/1.1",
+        "http/2"
+    ]
+}

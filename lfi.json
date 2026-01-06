@@ -1,7 +1,6 @@
 {
     "flags": "-iE",
-     "patterns": [
-
+    "patterns": [
         "file=",
         "document=",
         "folder=",
@@ -34,8 +33,29 @@
         "layout=",
         "mod=",
         "conf=",
-         "url="
-         
-
-]
+        "url=",
+        "/etc/passwd",
+        "/etc/shadow",
+        "/etc/hosts",
+        "/proc/self/environ",
+        "/var/log/apache",
+        "/var/log/nginx",
+        "c:\\\\windows\\\\",
+        "c:\\\\",
+        "d:\\\\",
+        "c:/windows/",
+        "c:/",
+        "d:/",
+        "windows\\\\",
+        "win.ini",
+        "boot.ini",
+        "web.config",
+        "httpd.conf",
+        "apache.conf",
+        "nginx.conf",
+        ".env",
+        "config.php",
+        "wp-config",
+        ".git"
+    ]
 }

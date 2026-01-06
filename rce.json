@@ -1,7 +1,6 @@
 {
     "flags": "-iE",
-     "patterns": [
- 
+    "patterns": [
         "daemon=",
         "upload=",
         "dir=",
@@ -33,6 +32,11 @@
         "module=",
         "payload=",
         "run=",
-        "print="
-]
+        "print=",
+        "\\|.*",
+        ";.*",
+        "&.*",
+        "\\$\\(.*\\)",
+        "`.*"
+    ]
 }

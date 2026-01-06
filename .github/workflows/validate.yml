@@ -1,0 +1,45 @@
+name: Validate JSON Patterns
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Validate JSON files
+      run: |
+        for file in *.json; do
+          if [ -f "$file" ]; then
+            echo "Checking $file..."
+            python3 -c "import json; json.load(open('$file'))" || exit 1
+          fi
+        done
+        echo "All JSON files are valid!"
+
+    - name: Check for required fields
+      run: |
+        for file in *.json; do
+          if [ -f "$file" ]; then
+            echo "Checking $file for required fields..."
+            python3 << 'EOF'
+import json
+import sys
+filename = "${{ file }}"
+with open(filename) as f:
+    data = json.load(f)
+    if "flags" not in data:
+        print(f"Error: {filename} missing 'flags' field")
+        sys.exit(1)
+    if "patterns" not in data and "pattern" not in data:
+        print(f"Error: {filename} missing 'patterns' or 'pattern' field")
+        sys.exit(1)
+EOF
+          fi
+        done

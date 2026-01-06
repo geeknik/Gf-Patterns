@@ -1,0 +1,28 @@
+{
+    "flags": "-iE",
+    "patterns": [
+        "saml=",
+        "samlrequest=",
+        "samlresponse=",
+        "sso=",
+        "sso_start=",
+        "sso_token=",
+        "idp=",
+        "sp=",
+        "acs=",
+        "assertion=",
+        "relaystate=",
+        "sart=",
+        "saml_artifact=",
+        "saml_binding=",
+        "signature=",
+        "sig_alg=",
+        "request_id=",
+        "logout=",
+        "logoutrequest=",
+        "logoutresponse=",
+        "slo=",
+        "metadata=",
+        "discovery="
+    ]
+}

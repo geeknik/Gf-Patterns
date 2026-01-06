@@ -1,22 +1,37 @@
 {
     "flags": "-iE",
-     "patterns": [
-
- "id=",
- "user=",
- "account=",
- "number=",
- "order=",
- "no=",
- "doc=",
- "key=",
- "email=",
- "group=",
- "profile=",
- "edit=",
- "report="
- 
- ]
+    "patterns": [
+        "id=",
+        "user=",
+        "account=",
+        "number=",
+        "order=",
+        "no=",
+        "doc=",
+        "key=",
+        "email=",
+        "group=",
+        "profile=",
+        "edit=",
+        "report=",
+        "uuid=",
+        "guid=",
+        "/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/i",
+        "/[0-9a-f]{32}/i",
+        "hash=",
+        "token=",
+        "session=",
+        "invoice=",
+        "transaction=",
+        "customer=",
+        "employee=",
+        "member=",
+        "patient=",
+        "student=",
+        "client=",
+        "booking=",
+        "reservation="
+    ]
 }
 
 

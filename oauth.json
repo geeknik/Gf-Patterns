@@ -1,0 +1,25 @@
+{
+    "flags": "-iE",
+    "patterns": [
+        "oauth=",
+        "oauth_token=",
+        "oauth_verifier=",
+        "client_id=",
+        "client_secret=",
+        "redirect_uri=",
+        "response_type=",
+        "scope=",
+        "state=",
+        "code=",
+        "grant_type=",
+        "username=",
+        "password=",
+        "refresh_token=",
+        "access_token=",
+        "provider=",
+        "callback=",
+        "openid=",
+        "sso=",
+        "saml="
+    ]
+}

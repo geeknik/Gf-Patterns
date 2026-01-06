@@ -1,0 +1,24 @@
+{
+    "flags": "-iE",
+    "patterns": [
+        "ws=",
+        "wss=",
+        "websocket=",
+        "websockets=",
+        "socket=",
+        "socket.io=",
+        "socketio=",
+        "socket.io/",
+        "realtime=",
+        "events=",
+        "stream=",
+        "channel=",
+        "push=",
+        "notify=",
+        "ws://",
+        "wss://",
+        "/socket.io/",
+        "/ws/",
+        "/websocket"
+    ]
+}

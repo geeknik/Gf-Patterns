@@ -1,0 +1,15 @@
+{
+    "flags": "-iE",
+    "patterns": [
+        "xml=",
+        "data=",
+        "file=",
+        "document=",
+        "content=",
+        "config=",
+        "upload=",
+        "import=",
+        "url=",
+        "source="
+    ]
+}

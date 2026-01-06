@@ -1,4 +1,4 @@
-# Gf-Patterns V 1.9
+# Gf-Patterns V 2.0
 
 ## [GF](https://github.com/tomnomnom/gf) By [![Twitter](https://img.shields.io/badge/twitter-@TomNomNom-blue.svg)](https://twitter.com/TomNomNom) 
 
@@ -348,6 +348,35 @@ The pattern definitions are stored in `~/.gf` as little JSON files that can be k
 ]
 }
 ```
+
+## Available Pattern Files
+
+| Pattern File | Description |
+|-------------|-------------|
+| `debug_logic.json` | Debug parameters and configuration endpoints |
+| `idor.json` | Insecure Direct Object Reference patterns |
+| `img-traversal.json` | Image file extensions for path traversal detection |
+| `interestingEXT.json` | Interesting file extensions (config, backup, etc.) |
+| `interestingparams.json` | Interesting URL parameters (combined patterns) |
+| `interestingsubs.json` | Interesting subdomain keywords |
+| `jsvar.json` | JavaScript variable assignment patterns |
+| `lfi.json` | Local File Inclusion patterns (includes Windows paths) |
+| `redirect.json` | Open redirect and URL redirection parameters |
+| `rce.json` | Remote Code Execution parameters and command separators |
+| `sqli.json` | SQL Injection patterns and parameters |
+| `ssrf.json` | Server-Side Request Forgery patterns (includes cloud metadata) |
+| `ssti.json` | Server-Side Template Injection parameters |
+| `xss.json` | Cross-Site Scripting parameters |
+| `xxe.json` | XML External Entity vulnerabilities |
+| `graphql.json` | GraphQL endpoints and injection patterns |
+| `cors.json` | CORS misconfiguration parameters |
+| `jwt.json` | JWT/JWE token detection patterns |
+| `oauth.json` | OAuth flow and SSO parameters |
+| `prototype-pollution.json` | JavaScript prototype pollution patterns |
+| `upload.json` | File upload vulnerability parameters |
+| `nosql.json` | NoSQL injection patterns (MongoDB, etc.) |
+| `deserialization.json` | Insecure deserialization patterns |
+| `smuggling.json` | HTTP request smuggling patterns |
 
 ### Donations
 You can encourage me to contribute more to the open source with donations.

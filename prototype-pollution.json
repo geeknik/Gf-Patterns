@@ -1,0 +1,20 @@
+{
+    "flags": "-iE",
+    "patterns": [
+        "proto=",
+        "prototype=",
+        "constructor=",
+        "__proto__",
+        "constructor[",
+        "prototype[",
+        "construc",
+        "call=",
+        "apply=",
+        "bind=",
+        "source=",
+        "base=",
+        "attribute=",
+        "obj=",
+        "object="
+    ]
+}

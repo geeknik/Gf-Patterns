@@ -1,0 +1,22 @@
+{
+    "flags": "-iE",
+    "patterns": [
+        "origin=",
+        "callback=",
+        "jsonp=",
+        "redirect=",
+        "redirect_uri=",
+        "redirect_url=",
+        "return=",
+        "return_to=",
+        "returnUrl=",
+        "returnurl=",
+        "next=",
+        "next_url=",
+        "url=",
+        "uri=",
+        "dest=",
+        "destination=",
+        "referer="
+    ]
+}

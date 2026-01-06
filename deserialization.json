@@ -1,0 +1,28 @@
+{
+    "flags": "-iE",
+    "patterns": [
+        "data=",
+        "object=",
+        "obj=",
+        "input=",
+        "payload=",
+        "content=",
+        "state=",
+        "serialized=",
+        "base64=",
+        "b64=",
+        "pickle=",
+        "yaml=",
+        "yml=",
+        "xml=",
+        "json=",
+        "rce=",
+        "cmd=",
+        "exec=",
+        "code=",
+        "callback=",
+        "redirect=",
+        "view=",
+        "template="
+    ]
+}

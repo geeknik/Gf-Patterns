@@ -1,0 +1,27 @@
+{
+    "flags": "-iE",
+    "patterns": [
+        "pdf=",
+        "file=",
+        "document=",
+        "template=",
+        "upload=",
+        "generate=",
+        "create=",
+        "convert=",
+        "export=",
+        "render=",
+        "print=",
+        "download=",
+        "view=",
+        "preview=",
+        "report=",
+        "invoice=",
+        "receipt=",
+        "xml=",
+        "xsl=",
+        "xslt=",
+        "fo=",
+        "fop="
+    ]
+}

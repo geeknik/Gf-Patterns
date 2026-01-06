@@ -1,0 +1,28 @@
+{
+    "flags": "-iE",
+    "patterns": [
+        "upload=",
+        "file=",
+        "filename=",
+        "file_name=",
+        "fileurl=",
+        "file_url=",
+        "image=",
+        "img=",
+        "image_url=",
+        "img_url=",
+        "document=",
+        "doc=",
+        "attachment=",
+        "media=",
+        "photo=",
+        "avatar=",
+        "profile_pic=",
+        "thumbnail=",
+        "banner=",
+        "upload_file=",
+        "userfile=",
+        "form_file=",
+        "content="
+    ]
+}
