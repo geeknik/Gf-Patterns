@@ -1,6 +1,6 @@
 # Gf-Patterns V 2.0
 
-## [GF](https://github.com/tomnomnom/gf) by [![Twitter](https://img.shields.io/badge/twitter-@TomNomNom-blue.svg)](https://twitter.com/TomNomNom)
+## [New GF](https://github.com/geeknik/gf) by [![Twitter](https://img.shields.io/badge/twitter-@geeknik-blue.svg)](https://x.com/geeknik)
 
 `gf` is a wrapper around grep to help you grep for things. These patterns aid in security research, bug bounty hunting, and vulnerability assessments.
 
@@ -209,7 +209,7 @@ bash validate.sh
 
 ## Credits
 
-- [TomNomNom](https://twitter.com/TomNomNom) - Original `gf` tool
+- [TomNomNom](https://twitter.com/TomNomNom) - Original `gf` tool author
 - [1ndianl33t](https://twitter.com/1ndianl33t) - Original pattern collection
 - [geeknik](https://twitter.com/geeknik) - Current maintainer
 
