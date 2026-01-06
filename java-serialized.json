@@ -1,0 +1,9 @@
+{
+    "flags": "-HnrE",
+    "patterns": [
+        "AECD0000",
+        "rO0",
+        "H4sIA",
+        "application/x-java-serialized-object"
+    ]
+}
